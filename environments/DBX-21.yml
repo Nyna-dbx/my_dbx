@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "21"
+mappingDefinitions:
+  SRC:
+    database: my_catalog
+    schema: src_schema
+  TARGET:
+    database: my_catalog
+    schema: tgt_schema
+name: DBX
+type: Environment
