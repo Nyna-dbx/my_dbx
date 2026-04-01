@@ -1,6 +1,12 @@
 fileVersion: 1
 id: "21"
 mappingDefinitions:
+  BRONZE:
+    database: ""
+    schema: ""
+  GOLD:
+    database: ""
+    schema: ""
   SRC:
     database: my_catalog
     schema: src_schema
