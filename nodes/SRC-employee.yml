@@ -1,0 +1,84 @@
+fileVersion: 1
+id: 0e9fba5f-9e6f-40e3-9826-5273021b4204
+name: employee
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 84c8de66-d6c6-485e-90f1-f75cc2d21fb8
+          stepCounter: 0e9fba5f-9e6f-40e3-9826-5273021b4204
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: EMP_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c29c27f0-f7e3-4786-b62a-0f40ab4ac58c
+          stepCounter: 0e9fba5f-9e6f-40e3-9826-5273021b4204
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: EMP_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c13b32e2-3ffd-4f30-949c-05de2117333f
+          stepCounter: 0e9fba5f-9e6f-40e3-9826-5273021b4204
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: DEPARTMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 501f57ff-ec22-4e5f-ba1e-9017f2eba8f2
+          stepCounter: 0e9fba5f-9e6f-40e3-9826-5273021b4204
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: JOB_TITLE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: employee
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
