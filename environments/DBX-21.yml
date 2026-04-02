@@ -2,11 +2,11 @@ fileVersion: 1
 id: "21"
 mappingDefinitions:
   BRONZE:
-    database: ""
-    schema: ""
+    database: samples
+    schema: tpch
   GOLD:
-    database: ""
-    schema: ""
+    database: workspace
+    schema: default
   SRC:
     database: my_catalog
     schema: src_schema
