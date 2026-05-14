@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "22"
+includeSelector: "{ location: \"BRONZE\" name: \"customer\" } OR { location: \"TARGET\" name: \"stg_customer\" } OR { location: \"TARGET\" name: \"dim_customer\" }"
+name: sample_job
+type: Job
